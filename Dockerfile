@@ -1,3 +1,3 @@
 FROM python:3
-ADD authentication.py /
-CMD [ "python", “./authentication.py" ]
+ADD auth.py /
+CMD [ "python", “./auth.py" ]
